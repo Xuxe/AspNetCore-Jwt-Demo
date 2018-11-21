@@ -1,0 +1,16 @@
+POST https://localhost:5001/api/authorize
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+
+###
+
+POST https://localhost:5001/api/authorize/information
+Content-Type: application/json
+
+ {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6WyJBZG1pbmlzdHJhdG9yIiwiRGV2ZWxvcGVyIl0sIm5iZiI6MTU0MjgxMTEyNSwiZXhwIjoxNTQyODk3NTI1LCJpYXQiOjE1NDI4MTExMjUsImlzcyI6ImxvY2FsaG9zdCIsImF1ZCI6ImxvY2FsaG9zdCJ9.lgdxKvPpHkXv7PBbKYysat4RpVhqHsldRM-ppmm3MvM"
+}
